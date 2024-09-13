@@ -14,7 +14,9 @@ export default function TopMenu() {
                 sizes='100vh'/>
             </Link>
             <TopMenuItem title='Reservation' pageRef='/reservations'/>
+            <TopMenuItem title='Manage' pageRef='/reservations/manage'/>
             <TopMenuItem title='About' pageRef='/about'/>
+            <TopMenuItem title='Car' pageRef='/car'/>
         </div>
     )
 }
