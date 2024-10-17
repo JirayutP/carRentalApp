@@ -21,7 +21,7 @@ export function TravelCard(){
                     onClick={()=>{setPlaying(!playing)}}>
                     {playing? 'Pause':'Play'}
                 </button>
-                <Rating className="w-full h-[10%]" value={(rating==undefined)? 0:rating}
+                <Rating className="w-auto h-[10%]" value={(rating==undefined)? 0:rating}
                     onChange={(e, newValue)=>{if(newValue!=null) setRating(newValue)}}/>
             </div>
         </div>
